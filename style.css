@@ -4,6 +4,8 @@
     background-color: rgb(29, 206, 176);
     border-radius: 0.3rem;
   }
+
+  @import url(//fonts.googleapis.com/css?family=Seaweed+Script);
   h4curly{
     margin-bottom: 0.5rem;
     font-family: 'Seaweed Script', cursive; 
