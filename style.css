@@ -15,5 +15,11 @@
   }
   body {
      background-image: linear-gradient( rgb(255, 255, 255), rgb(29, 206, 176));
+     padding-bottom: 25rem;
      
+  }
+  .btn-primary {
+    color: black;
+    background-color: rgb(29, 206, 176);
+    border-color:rgb(29,206,176);
   }
