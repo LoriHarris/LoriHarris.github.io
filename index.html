@@ -2,8 +2,11 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <title>Lori Harris Freelance</title>    
+    <title>Lori E. Harris</title>     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/journal/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -12,7 +15,7 @@
 <body>
     <div class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a href="index.html" class="navbar-brand">Lori Harris Freelance</a>
+          <a href="index.html" class="navbar-brand">Lori Harris / Data Scientist</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,89 +30,104 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="real_estate_affordability.html">Real Estate Affordability</a>
                   <a class="dropdown-item" href="apple_scraper.html">Webscraping Notifier with MailChimp API</a>
-                  <a class="dropdown-item" href="lat_clou.html">Latitude vs Cloudiness</a>
-                  <a class="dropdown-item" href="lat_wind.html">Latitude vs Wind Speed</a>
+                  <a class="dropdown-item" href="https://loriharris.github.io/Latitude_Weather.github.io/">Latitude vs Weather</a>
+                  <a class="dropdown-item" href="dashboards.html">Compass Dashboard</a>
                 
                 </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
+            
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="https://github.com/LoriHarris" target="_blank">My Github</a>
               </li>
-              
             </ul>
-  
             <ul class="nav navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/LoriHarris" target="_blank">Lori Harris</a>
-              </li>
-            </ul>
-  
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+                </li>
+              </ul>
+    
           </div>
         </div>
       </div>
 
 
- 
-    <div class="container">
-            <h1 class="text-center"><hr>Weather versus Latitude</hr></h1>
+    <div class="jumbotron text-center">
+            <h3>"It is a capital mistake to theorize before one has data..." </h3>
+            <h1><h4curly>- Sherlock Holmes</h4curly></h1>
             
-            <div class="row">
-                <div class="col-md-7">
+    </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                
                     
-                    <div class="text-center">
-                        <h3><hr>Summary</hr></h3>
-                            <p>The purpose of this analysis was to randomly select a minimum of 500 cities using the Citipy Python Library and run those cities through the Open Weather Map API to analyze the relationship of weather to city latitude.</p>
-                    
-                    <div class="img-thumbnail">
-                        <img src="Fig1.png" class= "img-thumbnail" alt="Fig 1">
-                    </div>
+                 
+            <div class="card mb-3">
+                <h3 class="card-header">Web Scraping</h3>
+                <div class="card-body">
+                  <h5 class="card-title">Apple Notifier</h5>
+                  <h6 class="card-subtitle text-muted">Python, MailChimp API, HTML</h6>
                 </div>
-                </div>
-              <div class="col-md-5">
-                  <div class="text-center">
-                      <h3><hr>Visuals</hr></h3>
-                  <div class="row">
-                  <div class="col-md-6">
-                  <div class="img-thumbnail">
-                  <img src="Fig1.png" class= "img-thumbnail" alt="Fig 1">
-                  <div class="caption">
-                   
-                    <p align="center"><a href="lat_temp.html" class="btn btn-primary" role="button">Temperature</a> </p>                  </div>
+                <a href="apple_scraper.html"><img style="height: 200px; width: 100%; display: block;" src="Apple_Scraper.PNG" alt="Card image"></a>
+                <div class="card-body">
+                  <p class="card-text">Scrapes the client's website and sends an email to subscribers of their notifications if a new property is listed.  Email includes link to teh new property, and unsubscribe button, thus the mail list is self managing.</p>
                 </div>
               </div>
-              <div class="col-md-6">
-                    <div class="img-thumbnail">
-                      <img src="Fig2.png" class= "img-thumbnail" alt="Fig 1">
-                      <div class="caption">
-                        <p align="center"><a href="lat_humi.html" class="btn btn-primary" role="button">Humidity</a></p>
+            </div>
+            <div class="col-md-3">
+                
+                    
+                 
+                <div class="card mb-3">
+                    <h3 class="card-header">Data Analysis</h3>
+                    <div class="card-body">
+                      <h5 class="card-title">Housing Affordability</h5>
+                      <h6 class="card-subtitle text-muted">Python, Pandas, Matplotlib, CSV</h6>
+                    </div>
+                    <a href="apple_scraper.html"><img style="height: 200px; width: 100%; display: block;" src="Affordability_And_Education.png" alt="Card image"></a>
+                    <div class="card-body">
+                      <p class="card-text">Located and analyzed data from various sources and formats, including API and CSV files.  Uncovered insights through Python Pandas, Visualized via Matplotlib. Awarded "Best Visuals".</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                
+                    
+                 
+                    <div class="card mb-3">
+                        <h3 class="card-header">Visualization</h3>
+                        <div class="card-body">
+                          <h5 class="card-title">Latitude vs Weather</h5>
+                          <h6 class="card-subtitle text-muted">Python, API, Matplotlib, Pandas, HTML, CSS</h6>
+                        </div>
+                        <a href="https://loriharris.github.io/Latitude_Weather.github.io/"><img style="height: 200px; width: 100%; display: block;" src="Latitude_v_Weather.PNG"" alt="Card image"></a>
+                        <div class="card-body">
+                          <p class="card-text">Utilizing the Open Weather Map API, generated a list of 500 random cities and analyzed their weather in relation to their global latitude.  Generated visuals were then blended into website format for ease of consumption.</p>
+                        </div>
                       </div>
                     </div>
-                    </div>
-                </div>
-            <div class="row">
-            <div class="col-md-6">
-            <div class="img-thumbnail">
-                <img src="Fig3.png" class= "img-thumbnail" alt="Fig 1">
-                <div class="caption">
-                <p align="center"><a href="lat_clou.html" class="btn btn-primary" role="button">Cloudiness</a> </p>
-                </div>
+                    <div class="col-md-3">
+                
+                    
+                 
+                        <div class="card mb-3">
+                            <h3 class="card-header">Dashboards</h3>
+                            <div class="card-body">
+                              <h5 class="card-title">Compass Insurance</h5>
+                              <h6 class="card-subtitle text-muted">Google Analytics</h6>
+                            </div>
+                            <a href="apple_scraper.html"><img style="height: 200px; width: 100%; display: block;" src="Affordability_And_Education.png" alt="Card image"></a>
+                            <div class="card-body">
+                              <p class="card-text">Assisted client with adding google analytics tags to existing website, then consulted with them regarding their goals to create a custom dashboard for the desired information.</p>
+                            </div>
+                          </div>
+                        </div> 
             </div>
             </div>
-            <div class="col-md-6">
-                <div class="img-thumbnail">
-                    <img src="Fig4.png" class= "img-thumbnail" alt="Fig 1">
-                    <div class="caption">
-                    <p align="center"><a href="lat_wind.html" class="btn btn-primary" role="button">Windiness</a></p> 
-                    </div>
-                </div>
-                </div> 
-            </div>
-            </div>
-            </div>
-            </div>
+          </div>
 </body>
 
 </html>

@@ -1,0 +1,14 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgb(29, 206, 176);
+    border-radius: 0.3rem;
+  }
+  h4curly{
+    margin-bottom: 0.5rem;
+    font-family: 'Tangerine', serif;  
+    font-weight: 1700;
+    line-height: 1.1;
+    font-size: 20 rem;
+  }
+  
