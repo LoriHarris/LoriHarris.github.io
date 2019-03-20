@@ -88,15 +88,35 @@
   text-align: center !important;
   vertical-align: middle;
 }
+.image1{
+  display: block !important;
+}
+
+.image2{
+  display: none !important;
+}
 
 @media (min-width:768px) and (max-width:1440px) {
   .hero {
     padding-top: 8%
   }
+
 }
 @media (min-width:0px) and (max-width:767px) {
   .media-hide {
   display: none !important;
+  }
+  .jumbotron1 {
+    margin-top: 0rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .image1{
+    display: none !important;
+  }
+
+  .image2{
+    display: block !important;
   }
   .hero {
     padding-top: 13%;
