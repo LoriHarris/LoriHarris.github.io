@@ -78,7 +78,7 @@
   vertical-align: middle;
   background-attachment: fixed;
  
-  padding-top: 13%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -86,8 +86,17 @@
   text-align: center !important;
   vertical-align: middle;
 }
+
+
+
+
 @media (min-width:0px) and (max-width:767px) {
   .media-hide {
   display: none !important;
   }
+  .hero {
+    padding-top: 15%;
   }
+  }
+
+  
