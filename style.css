@@ -2,7 +2,7 @@
   @import url(//fonts.googleapis.com/css?family=Seaweed+Script);
   @import url(//fonts.googleapis.com/css?family=Comfortaa);
   @import url(//https://fonts.googleapis.com/css?family=Arapey);
-
+  
   h4curly{
     margin-bottom: 0.5rem;
     font-family: ''Arapey'', serif; 
@@ -10,7 +10,7 @@
     line-height: 1.1;
     font-size: 20 rem;
   }
-  
+
   .navbar {
     font-size: 22px;
     font-family: "Arapey", serif;
@@ -53,17 +53,19 @@
   .img-responsive {
     height: auto;
     width: auto;
-    max-height: 150px;
-    max-width: 250px;
+    max-height: 100px;
+    max-width: 200px;
   }
   .jumbotron {
     padding: 0rem 0rem;
+    margin-bottom: 0rem;
+  } 
+  .jumbotron1 {
+    margin-top: 0rem;
+    padding: 2rem 2rem;
     margin-bottom: 1rem;
-    
-    /* background-color: #A0fffc; */
-    /* border-radius: 0.3rem; */
-    
-}
+    /* background-color: #bde3e1; */
+  } 
 .hero {
   position: relative;
   
@@ -78,7 +80,7 @@
   vertical-align: middle;
   background-attachment: fixed;
  
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -89,7 +91,7 @@
 
 @media (min-width:768px) and (max-width:1440px) {
   .hero {
-    padding-top: 10%
+    padding-top: 8%
   }
 }
 @media (min-width:0px) and (max-width:767px) {
@@ -97,7 +99,7 @@
   display: none !important;
   }
   .hero {
-    padding-top: 15%;
+    padding-top: 13%;
   }
   }
 
