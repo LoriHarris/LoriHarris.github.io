@@ -89,9 +89,9 @@
 
 @media (min-width:768px) and (max-width:1440px) {
   .hero {
-    padding-top: 15%
+    padding-top: 10%
   }
-
+}
 @media (min-width:0px) and (max-width:767px) {
   .media-hide {
   display: none !important;
